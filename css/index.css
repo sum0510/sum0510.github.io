@@ -1,0 +1,45 @@
+#navigation>div {
+    display: inline-block;
+}
+
+#navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#left_box_ul, #right_box_ul {
+    display: flex;
+}
+
+#left_box_ul>li, #right_box_ul>li {
+    min-width: 90px;
+    height: 45px;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    line-height: 40px;
+    /* border-radius는 외곽선의 모서리를 둥그렇게 가다듬어 준다 */
+    border-radius: 8px;
+    font-size: larger;
+}
+
+#container {
+    max-width: 1024px;
+    margin: auto;
+}
+
+.nav-container {
+    width: 960px;
+    background-color: rgb(248, 219, 224);
+    padding: 0 30px;
+    border-radius: 25px;
+}
+
+/* *은 모든 태그를 의미하는 선택자다 */
+/* * {
+    border: 1px solid black;
+}
+body, #container {
+    border: none !important;
+} */

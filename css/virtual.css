@@ -1,0 +1,4 @@
+ul.menubar>li:hover{
+    background-color: rgb(243, 78, 133);
+    transition-duration: 0.5s;
+}
