@@ -2,3 +2,8 @@ ul.menubar>li:hover{
     background-color: rgb(243, 78, 133);
     transition-duration: 0.5s;
 }
+
+#footer img:hover {
+    filter: invert(100%);
+    transition-duration: 0.5s;
+}
